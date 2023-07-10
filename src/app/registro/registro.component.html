@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secretaria Virtual | Registrarse</title>
+    <link rel="shortcut icon" href="/assets/LOGO-ULEAM-HORIZONTAL.png" />
+  </head>
+  <body>
+    <div class="Registrarse">
+      <img
+        class="logo"
+        src="/assets/LOGO-ULEAM-HORIZONTAL.png"
+        width="150"
+        height="100"
+      />
+      <h1>Registro</h1>
+      <form class="form_registro" id="Registro" action="">
+        <div class="Datos">
+          <div class="input-box">
+            <input type="text" id="nombres_apellidos" placeholder="Nombres" />
+          </div>
+          <br />
+          <div class="input-box">
+            <input type="number" id="telef" placeholder="Teléfono" />
+          </div>
+          <br />
+          <div>
+            <form>
+              <select name="Facultad" id="seleccion">
+                <option>Facultad</option>
+                <option>Ciencias de la Vida y Tecnologías</option>
+                <option>Educación, Turismo, Artes y Humanidades</option>
+                <option>Ciencias de la Salud</option>
+                <option>Ingeniería, Industria y Construcción</option>
+                <option>Ciencias Sociales, Derecho y Bienestar</option>
+                <option>Ciencias Administrativas. Contables y Comercio</option>
+              </select>
+            </form>
+          </div>
+          <br />
+          <div class="input-box">
+            <input
+              type="email"
+              id="correo_inst"
+              placeholder="Correo institucional"
+            />
+          </div>
+          <br />
+          <div class="input-box">
+            <input type="password" id="contra" placeholder="Contaseña" />
+          </div>
+          <br />
+          <div class="input-box">
+            <input
+              type="password"
+              id="confirma_contra"
+              placeholder="Confirma tu contraseña"
+            /><br />
+          </div>
+          <br />
+          <div class="button">
+            <input type="submit" value="Registrarse" /><br />
+            <span
+              >¿Ya tienes cuenta?
+              <a
+                href="index"
+                style="text-decoration: none; color: black; font-weight: 600"
+                >Inicia Sesión</a
+              ></span
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
